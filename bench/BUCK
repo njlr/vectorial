@@ -1,0 +1,13 @@
+cxx_binary(
+  name = 'bench',
+  header_namespace = '',
+  headers = subdir_glob([
+    ('', '*.h'),
+  ]),
+  srcs = glob([
+    '*.cpp',
+  ]),
+  deps = [
+    '//:vectorial',
+  ],
+)

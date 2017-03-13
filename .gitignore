@@ -1,3 +1,9 @@
 *.o
 *.orig
 specsuite-*
+
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS
